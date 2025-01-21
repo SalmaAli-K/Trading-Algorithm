@@ -6,6 +6,7 @@ Trading algorithm for hackaton
 import math
 
 def bearish_comeback(candles, period):
+
     if len(candles) < period + 1:
         raise ValueError("Not enough candles to analyze for the given period.")
         
