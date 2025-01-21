@@ -4,7 +4,6 @@ Trading algorithm for hackaton
 ""
 
 import math
-
 def bearish_comeback(candles, period):
 
     if len(candles) < period + 1:
