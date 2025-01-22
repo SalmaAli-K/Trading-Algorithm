@@ -5,7 +5,9 @@ Trading algorithm for hackaton
 
 
 def momentum_reversal(candles, period):
+    
     """
+    
     Strategy to detect momentum reversals after a strong downward trend.
     
     Args:
