@@ -7,6 +7,7 @@ import math
 
 def volatility_rebound_buy(candles, period):
     """
+    
     Strategy to identify buying opportunities based on sharp price drops 
     followed by increased volatility.
     
